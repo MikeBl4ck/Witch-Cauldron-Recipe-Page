@@ -1,0 +1,56 @@
+<svg width="900" height="520" viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b9a472"/>
+      <stop offset="1" stop-color="#8c7654"/>
+    </linearGradient>
+    <linearGradient id="potion" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b88cbc"/>
+      <stop offset="0.47" stop-color="#744c87"/>
+      <stop offset="1" stop-color="#3b244f"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".4"/>
+      <stop offset=".22" stop-color="#ffffff" stop-opacity=".08"/>
+      <stop offset=".8" stop-color="#ffffff" stop-opacity=".03"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".27"/>
+    </linearGradient>
+    <clipPath id="bottle-body">
+      <path d="M332 203 C332 180 360 168 378 156 L378 108 L522 108 L522 156 C540 168 568 180 568 203 L590 419 C594 454 570 476 536 476 L364 476 C330 476 306 454 310 419 Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="900" height="520" fill="url(#background)"/>
+  <rect x="26" y="25" width="848" height="470" fill="none" stroke="#705c40" stroke-width="2"/>
+  <line x1="64" y1="260" x2="255" y2="260" stroke="#7e6746"/>
+  <line x1="645" y1="260" x2="836" y2="260" stroke="#7e6746"/>
+  <circle cx="80" cy="260" r="4" fill="#7e6746"/>
+  <circle cx="820" cy="260" r="4" fill="#7e6746"/>
+
+  <ellipse cx="450" cy="476" rx="184" ry="22" fill="#33243a" opacity=".2"/>
+
+  <path d="M332 203 C332 180 360 168 378 156 L378 108 L522 108 L522 156 C540 168 568 180 568 203 L590 419 C594 454 570 476 536 476 L364 476 C330 476 306 454 310 419 Z" fill="#d7cfba" fill-opacity=".33" stroke="#4c3a4e" stroke-width="8"/>
+
+  <g clip-path="url(#bottle-body)">
+    <rect x="290" y="216" width="320" height="270" fill="url(#potion)"/>
+    <path d="M290 252 C360 226 418 274 492 245 C536 228 575 235 610 250 L610 286 C544 270 500 286 445 295 C381 305 340 270 290 285 Z" fill="#c4a1c2" opacity=".55"/>
+    <path d="M286 360 C356 340 403 377 469 357 C526 340 563 347 614 368 L614 486 L286 486 Z" fill="#30203f" opacity=".48"/>
+    <rect x="290" y="125" width="320" height="360" fill="url(#glass)"/>
+  </g>
+
+  <rect x="369" y="91" width="162" height="28" rx="4" fill="#4b3a49" stroke="#2c202e" stroke-width="4"/>
+  <rect x="386" y="51" width="128" height="45" rx="5" fill="#685642" stroke="#3f3127" stroke-width="4"/>
+  <line x1="395" y1="63" x2="505" y2="82" stroke="#8d785a" stroke-width="3" opacity=".6"/>
+
+  <path d="M342 222 C351 189 374 182 391 169" fill="none" stroke="#ffffff" stroke-opacity=".45" stroke-width="8" stroke-linecap="round"/>
+  <path d="M338 256 L326 390" fill="none" stroke="#ffffff" stroke-opacity=".2" stroke-width="6" stroke-linecap="round"/>
+
+  <rect x="355" y="302" width="190" height="84" fill="#d5c38f" stroke="#6f593a" stroke-width="3"/>
+  <rect x="364" y="311" width="172" height="66" fill="none" stroke="#8e7347"/>
+  <text x="450" y="337" text-anchor="middle" font-family="Georgia, serif" font-size="13" letter-spacing="3" fill="#5c4435">ESSENCE OF</text>
+  <text x="450" y="362" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#60405f">TWILIGHT</text>
+
+  <circle cx="373" cy="235" r="13" fill="#2c1838" opacity=".8"/>
+  <circle cx="401" cy="249" r="10" fill="#392045" opacity=".85"/>
+  <circle cx="522" cy="270" r="11" fill="#352041" opacity=".7"/>
+</svg>

@@ -1,0 +1,41 @@
+<svg width="900" height="520" viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a0927a"/>
+      <stop offset="1" stop-color="#625970"/>
+    </linearGradient>
+    <linearGradient id="crystal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d6f2ee" stop-opacity=".95"/>
+      <stop offset=".35" stop-color="#5eb8c5" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#245477" stop-opacity=".95"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" fill="url(#background)"/>
+  <rect x="26" y="25" width="848" height="470" fill="none" stroke="#574f60" stroke-width="2"/>
+  <line x1="64" y1="260" x2="220" y2="260" stroke="#655c6c"/>
+  <line x1="680" y1="260" x2="836" y2="260" stroke="#655c6c"/>
+  <circle cx="80" cy="260" r="4" fill="#655c6c"/>
+  <circle cx="820" cy="260" r="4" fill="#655c6c"/>
+  <ellipse cx="450" cy="402" rx="252" ry="72" fill="#292632" stroke="#17151d" stroke-width="6"/>
+  <ellipse cx="450" cy="386" rx="218" ry="51" fill="#373341"/>
+  <g fill="url(#crystal)" stroke="#b7e5df" stroke-width="3">
+    <path d="M302 361 L355 188 L405 370 Z"/>
+    <path d="M367 374 L442 112 L477 381 Z"/>
+    <path d="M442 378 L526 169 L566 387 Z"/>
+    <path d="M516 379 L599 234 L626 386 Z"/>
+    <path d="M279 378 L327 268 L354 386 Z"/>
+  </g>
+  <g fill="none" stroke="#e4ffff" stroke-width="3" opacity=".65">
+    <path d="M355 188 L371 345"/>
+    <path d="M442 112 L451 356"/>
+    <path d="M526 169 L534 361"/>
+    <path d="M599 234 L605 365"/>
+  </g>
+  <g fill="#d9ffff">
+    <circle cx="352" cy="145" r="4"/>
+    <circle cx="563" cy="135" r="5"/>
+    <circle cx="625" cy="197" r="3"/>
+    <circle cx="288" cy="221" r="3"/>
+  </g>
+  <text x="450" y="479" text-anchor="middle" font-family="Georgia, serif" font-size="14" letter-spacing="4" fill="#ddd2bd">LUNAR SHARDS</text>
+</svg>
