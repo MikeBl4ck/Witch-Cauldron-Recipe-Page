@@ -58,16 +58,22 @@ width: 10%;
 .card {
     display: flex;
     margin: 20px;
+    width: 850px;
 }
 
 .left-card,
 .right-card {
     display: flex;
     flex-direction: column;
+    width: 400px;
 }
 
 .left-card {
     background-color: #DDCBA4;
+}
+
+.right-card {
+    background-color: #D8C49A;
 }
 
 /* Top Half of Left Card Display */
@@ -186,6 +192,24 @@ width: 10%;
     width: 100px;
     font-size: 12px;
     color: #6D5A42;
+}
+
+/*Right Card Display*/
+
+.steps {
+    display: flex;
+}
+
+.stepnum {
+    display: flex;
+    flex-direction: column;
+    outline: auto;
+}
+
+.steptext {
+    display: flex;
+    flex-direction: column;
+    outline: auto;
 }
 
 
