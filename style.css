@@ -161,6 +161,8 @@ width: 10%;
     display: flex;
     align-items: flex-end;
     font-size: 8px;
+    color: #5E4C37
+
 }
 
 .measure {
@@ -168,15 +170,17 @@ width: 10%;
     display: flex;
     font-size: 13px;
     padding-right: 40px;
+    color: #5E4C37
+
 }
 
 .minisectionline {
- width: 400px;
+ width: 330px;
     background-color: #98764fba;
 }
 
 .sectionline {
-    width: 400px;
+    width: 330px;
     height: 1.2px;
     background-color: #5e4c37;
     margin-bottom: 15px;
@@ -194,23 +198,47 @@ width: 10%;
     color: #6D5A42;
 }
 
-/*Right Card Display*/
+/* Right Card Display */
 
 .steps {
     display: flex;
+    padding: 15px;
+    gap: 15px;
+    align-items: center;
+    margin-top: -5px;
+    margin-bottom: -5px;
 }
 
 .stepnum {
     display: flex;
     flex-direction: column;
-    outline: auto;
+    height: 45px;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 3px;
+    color: #9B742F;
 }
 
 .steptext {
     display: flex;
     flex-direction: column;
-    outline: auto;
+    gap: 8px;
+    margin-top: 5px;
+    margin-right: 15px;
 }
+
+.stepinfo {
+     font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.stepdesc {
+    display: flex;
+    font-size: 9px;
+    color: #5E4C37
+}
+
+
 
 
 
