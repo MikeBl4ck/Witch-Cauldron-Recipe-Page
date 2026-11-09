@@ -19,12 +19,15 @@ body {
     color: #ddb05c;
     box-sizing: border-box;
     padding: 20px;
+    padding-top: 30px;
     align-items: center;
     gap: 15px;
 }
 
 .largetitle {
     font-size: 30px;
+    text-shadow: 2px 2px 60px goldenrod;
+
 }
 
 #company {
@@ -32,7 +35,7 @@ body {
 }
 
 .headerdesc {
-    font-size: 9px;
+    font-size: 10.5px;
 }
 
 hr {
@@ -57,15 +60,18 @@ width: 10%;
 
 .card {
     display: flex;
-    margin: 20px;
-    width: 850px;
+    margin-top: 20px;
+    justify-content: center;
+    width: 800px;
+    box-shadow: 2px 10px 15px goldenrod;
+    margin-bottom: 30px;
 }
 
 .left-card,
 .right-card {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 50%;
 }
 
 .left-card {
@@ -238,6 +244,31 @@ width: 10%;
     color: #5E4C37
 }
 
+.brewersnote {
+    display: flex;
+    flex-direction: column;
+    background-color: #CEBA8D;
+    border: 1px solid #A58B5B;
+    width: 80%;
+    align-items: flex-start;
+    margin: auto;
+    margin-top: 38px;
+    padding: 15px;
+    box-shadow: 4px 6px 20px #523962;
+    border-radius: 16px;
+    margin-bottom: 22px;
+}
+
+.notelabel {
+    font-size: 10px;
+    color: #826628;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.notetext {
+        font-size: 10px;
+}
 
 
 
