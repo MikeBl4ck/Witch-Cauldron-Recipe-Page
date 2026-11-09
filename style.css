@@ -58,6 +58,8 @@ width: 10%;
 
 /* CSS For Individual Card Displays */
 
+
+
 .card {
     display: flex;
     margin-top: 20px;
@@ -83,6 +85,7 @@ width: 10%;
 }
 
 /* Top Half of Left Card Display */
+
 
 .top-half {
     display: flex;
@@ -130,6 +133,7 @@ width: 10%;
 }
 
 /* Bottom Half of Left Card Display */
+
 
 .bottom-half {
     height: 460px;
@@ -205,6 +209,7 @@ width: 10%;
 }
 
 /* Right Card Display */
+
 
 .steps {
     display: flex;
@@ -285,3 +290,4 @@ width: 10%;
     color: #ddb05c;
     margin-top: auto;
 }
+
