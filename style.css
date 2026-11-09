@@ -33,7 +33,6 @@ body {
     font-size: 9px;
 }
 
-
 hr {
 width: 10%;
     background-color: #ddb05c;
@@ -47,6 +46,8 @@ width: 10%;
     background-color: aqua;
     display: flex;
 }
+
+
 
 .footer {
     display: flex;
