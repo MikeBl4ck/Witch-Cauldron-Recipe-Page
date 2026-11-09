@@ -1,3 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
 body {
-    color: red;
+    font-family: 'Cinzel Decorative', serif;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #3c1846;
+    color: #ddb05c;
+    box-sizing: border-box;
+    padding: 20px;
+    align-items: center;
+    gap: 15px;
+}
+
+.largetitle {
+    font-size: 30px;
+}
+
+#company {
+    font-size: 12px;
+}
+
+.headerdesc {
+    font-size: 9px;
+}
+
+
+hr {
+width: 10%;
+    background-color: #ddb05c;
+    height: 1px;
+    display: flex;
+    flex-grow: 0;
+    border: none;
+    
 }
