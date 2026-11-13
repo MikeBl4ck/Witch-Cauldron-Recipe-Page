@@ -2,12 +2,120 @@
 
 
 body {
+    display: flex;
     font-family: 'Cinzel Decorative', serif;
     font-weight: 600;
     letter-spacing: 0.05em;
     margin: 0;
-    display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: #3c1846;
     min-height: 100vh;
+    padding-top: 23px;
+    padding-bottom: 0;
+    overflow: auto;
 }
 
+/*
+#daa520
+#ddb05c
+#3D1846
+goldenrod
+#DDCBA4
+#D8C49A
+#6D5A42
+#9B742F
+#5D5145
+#523962
+#5E4C37
+*/
+
+
+#tribalsign {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+
+#logo {
+    width: 250px;
+}
+
+#era {
+    color: #9B742F;
+    font-size: 10px;
+    letter-spacing: 3px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#title {
+    color: #ddb05cdc;
+    text-shadow: 2px 4px 66px;
+    font-size: 50px;
+}
+
+#titledesc {
+    color: #bfa57a;
+    font-size: 10px;
+    margin-top: -10px;
+}
+
+.cardtray {
+    display: flex;
+    padding: 0;
+    max-width: 800px;
+    width: 100%;
+    gap: 20px;
+    font-size: 12px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+    justify-content: center;
+}
+
+.card {
+    list-style-type: none;
+    background-color: #b7955a;
+    width: 220px;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 1px 1px 8px #b7955a;;
+
+}
+
+.second {
+    width: 230px;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkname {
+    font-size: 13px;
+    margin-top: 3px;
+    color: #fdfcff;
+    text-shadow: 2px 4px 40px;
+    font-weight: bold;
+}
+
+.linkdesc {
+    font-size: 8px;
+    margin-top: -2px;
+    color: rgb(90, 70, 20);
+}
+
+#carddesc {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #9B742F;
+    margin-top: 60px;
+    margin-bottom:auto;
+}

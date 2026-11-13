@@ -8,6 +8,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #3D1846;
+
 }
 
 /* Header Display */
@@ -15,7 +17,6 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-    background-color: #3c1846;
     color: #ddb05c;
     box-sizing: border-box;
     padding: 20px;
@@ -29,6 +30,7 @@ body {
     text-shadow: 2px 2px 60px #daa520;
 
 }
+
 
 #company {
     font-size: 12px;
@@ -50,7 +52,6 @@ width: 10%;
 /* Container For Card Display */
 
 .container1 {
-    background-color: #3D1846;
     display: flex;
     justify-content: center;
 
@@ -79,6 +80,7 @@ width: 10%;
 .left-card {
     background-color: #DDCBA4;
 }
+
 
 .right-card {
     background-color: #D8C49A;
@@ -286,7 +288,6 @@ width: 10%;
     font-size: 7px;
     justify-content: center;
     align-items: center;
-    background-color: #3c1846;
     color: #ddb05c;
     margin-top: auto;
 }
