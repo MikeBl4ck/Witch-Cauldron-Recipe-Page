@@ -23,6 +23,7 @@ body {
     padding-top: 30px;
     align-items: center;
     gap: 15px;
+    margin-top: -50px;
 }
 
 .largetitle {
@@ -295,7 +296,6 @@ width: 10%;
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    background-color: #3D1846;
 }
 
 #tribalsign {
