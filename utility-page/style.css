@@ -9,8 +9,49 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: #3D1846;
-
 }
+
+/* Header Display */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    color: #ddb05c;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-top: 30px;
+    align-items: center;
+    gap: 15px;
+    margin-top: -50px;
+}
+
+.largetitle {
+    font-size: 30px;
+    text-shadow: 2px 2px 60px #daa520;
+}
+
+#company {
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+.headerdesc {
+    font-size: 10.5px;
+}
+
+hr {
+width: 10%;
+    background-color: #ffffff;
+    height: 1px;
+    display: flex;
+    flex-grow: 0;
+    border: none;   
+}
+
+#headerhr {
+    width: 200px;
+}
+
 
 
 /**** Dashbaord Here ****/
@@ -94,9 +135,6 @@ body {
     padding: 15px;
 }
 
-
-
-
 .footer {
     display: flex;
     height: 45px;
@@ -109,6 +147,60 @@ body {
 
 /***** Content ****/
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#titlechart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#tcleft,
+#tcright {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.tccard {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 50px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ba8b4cd7;
+    border-radius: 40px;
+}
+
+.tccardtop {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: #ffffff9f;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.tccardbottom {
+    font-size: large;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+/* 590 */
 
 
 

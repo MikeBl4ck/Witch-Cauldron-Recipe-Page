@@ -96,26 +96,47 @@ body {
 
 /***** Content ****/
 
-#pagedesc {
-    margin-top: -10px;
-    align-self: center;
-    color: #ddb05cdd;
+/* Header Display */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    color: #ddb05c;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-top: 30px;
+    align-items: center;
+    gap: 15px;
+    margin-top: -50px;
+}
+
+.largetitle {
+    font-size: 30px;
+    text-shadow: 2px 2px 60px #daa520;
+}
+
+#company {
     font-size: 10px;
-    letter-spacing: 2.5px;
+    letter-spacing: 3px;
 }
 
-#pagetitle {
-    font-size: 25px;
-    align-self: center;
-    color: #e4b232;
-    text-shadow: 2px 2px 54px;
+.headerdesc {
+    font-size: 10.5px;
 }
 
-#pagehr {
-    width: 100px;
-    margin-top: 20px;
-    margin-bottom: 100px;
+hr {
+width: 10%;
+    background-color: #ffffff;
+    height: 1px;
+    display: flex;
+    flex-grow: 0;
+    border: none;   
 }
+
+#headerhr {
+    width: 200px;
+}
+
 
 
 #contentboxtop,
@@ -138,12 +159,11 @@ body {
     
 }
 
-
 #contentboxes {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    
+    margin-top: 30px;
 }
 
 #imgone {
@@ -195,13 +215,4 @@ h3 {
     margin-top: -25px;
     padding-bottom: 10px;
     
-}
-
-#hrdesc {
-    font-size: 10px;
-    letter-spacing: 1.5px;
-    align-self: center;
-    margin-top: -70px;
-    margin-bottom: 80px;
-    color: #ddb05cd0;
 }
