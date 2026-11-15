@@ -34,7 +34,8 @@ body {
 
 
 #company {
-    font-size: 12px;
+    font-size: 10px;
+    letter-spacing: 3px;
 }
 
 .headerdesc {
@@ -43,7 +44,7 @@ body {
 
 hr {
 width: 10%;
-    background-color: #ddb05c;
+    background-color: #ffffff;
     height: 1px;
     display: flex;
     flex-grow: 0;
@@ -312,6 +313,8 @@ width: 10%;
     padding: 15px;
     margin-right: 15px;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 #abouthr,
@@ -347,7 +350,6 @@ width: 10%;
 
 #returnhr {
     width: 190px;
-    box-shadow: 2px 2px 26px white;
 }
 
 #rightreturn {

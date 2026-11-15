@@ -197,25 +197,11 @@ h3 {
     
 }
 
-
-
-
-
-
-/*Color Codes Here*/
-h1 {
-    color: 
-#daa520
-#ddb05c
-#3D1846
-goldenrod
-#DDCBA4
-#D8C49A
-#6D5A42
-#9B742F
-#5D5145
-#523962
-#5E4C37
-;
+#hrdesc {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    align-self: center;
+    margin-top: -70px;
+    margin-bottom: 80px;
+    color: #ddb05cd0;
 }
-

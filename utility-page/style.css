@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+body {
+    font-family: 'Cinzel Decorative', serif;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #3D1846;
+
+}
+
+
+/**** Dashbaord Here ****/
+
+#dashboard {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+/*Dashboard At Top*/
+
+#dashboard {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#tribalsign {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    padding-right: 0px;
+}
+
+#tabtray {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    margin-right: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#abouthr,
+#utilityhr {
+    width: 110px;
+}
+
+#about,
+#utility {
+    display: flex;
+    flex-direction: column;
+}
+
+.linktext {
+    color: rgba(255, 255, 255, 0.941);
+}
+
+#aboutlink,
+#utilitylink,
+#imagelink {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+#imagelink {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color:  #ddb05c;
+}
+
+#returnhr {
+    width: 190px;
+}
+
+#rightreturn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagelink1 {
+    max-width: 50px;
+    max-height: 50px;
+    padding: 15px;
+}
+
+
+
+
+.footer {
+    display: flex;
+    height: 45px;
+    font-size: 7px;
+    justify-content: center;
+    align-items: center;
+    color: #ddb05c;
+    margin-top: auto;
+}
+
+/***** Content ****/
+
+
+
+
+/*Color Codes Here*/
+h1 {
+    color: 
+#daa520
+#ddb05c
+#3D1846
+goldenrod
+#DDCBA4
+#D8C49A
+#6D5A42
+#9B742F
+#5D5145
+#523962
+#5E4C37
+;
+}
