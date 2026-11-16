@@ -209,47 +209,92 @@ ul {
 .fourtier {
     background-color: #dfbb8bfd;
     min-width: 590px;
-    padding: 20px;
+    padding: 1px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 2px 3px 6px #cb902b;
+    border-radius: 15px;
+    border: 5px solid rgba(255, 255, 255, 0.444);
 }
 
-.fivetierlist {
+.fivetierlist,
+.fourtierlist {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    margin: 0;
 }
 
 .tier {
     display: flex;
     justify-content: flex-start;
     justify-content: space-between;
-    outline: 2px solid red;
+    border-bottom: 1px solid rgba(110, 86, 27, 0.886);
     width: 600px;
     margin-left: 0px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
 }
 
+.listrightside {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    color: #564530;
+    font-size: 14px;
+}
 
+.last {
+    display: flex;
+    color: #564530;
+    font-size: 14px;
+}
 
+.tierheader {
+    width: 600px;
+    height: 90px;
+    margin-top: 20px;
+    font-size: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #b36e19;
+}
 
+.tierheadertitle {
+    font-size: 20px;
+    color: #93681e;
+    text-shadow: 2px 3px 16px #cb902b;
+}
 
+.tierheaderdesc {
+    color:#6D5A42;
+}
 
+#rule {
+    display: flex;
+    align-self: center;
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 11px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border: 3px solid rgb(156, 119, 26);
+}
 
+#rule1 {
+    color: #b57c1b;
+    font-size: 15px;
+}
 
-
-/*Color Codes Here*/
-h1 {
-    color: 
-#daa520
-#ddb05c
-#3D1846
-goldenrod
-#DDCBA4
-#D8C49A
-#6D5A42
-#9B742F
-#5D5145
-#523962
-#5E4C37
-;
+#rule2 {
+    color: #050400;
 }
