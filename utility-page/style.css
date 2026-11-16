@@ -157,16 +157,16 @@ ul {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
+    margin-top: 20px;
 }
 
 #tcleft,
 #tcright {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 
@@ -180,6 +180,7 @@ ul {
     align-items: center;
     background-color: #ba8b4cd7;
     border-radius: 40px;
+    box-shadow: 2px 3px 6px #ba8a4c8c;
 }
 
 .tccardtop {
@@ -195,12 +196,44 @@ ul {
     margin-top: 10px;
 }
 
+#topcards,
+#bottomcards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.fivetier,
+.fourtier {
+    background-color: #dfbb8bfd;
+    min-width: 590px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fivetierlist {
+    display: flex;
+    flex-direction: column;
+}
+
+.tier {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    outline: 2px solid red;
+    width: 600px;
+    margin-left: 0px;
+}
 
 
 
 
 
-/* 590 */
+
 
 
 
